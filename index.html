@@ -298,6 +298,30 @@
             background-position: center;
         }
 
+        /* Math Integration Section */
+        #math-integration {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                        #1a1a1a;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .math-image-container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .math-image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            display: block;
+        }
+
         /* Posters Gallery Section */
         #posters {
             background: #2a2a2a;
@@ -498,6 +522,7 @@
 			<li><a href="#cover" onclick="toggleMenu()">Cover</a></li>
 			<li><a href="#lookbook" onclick="toggleMenu()">Lookbook</a></li>
 			<li><a href="#posters" onclick="toggleMenu()">Posters</a></li>
+			<li><a href="#math-integration" onclick="toggleMenu()">Math Integration</a></li>
         </ul>
     </nav>
 
@@ -529,7 +554,7 @@
                             <div class="poster-description">
                                 <p class="translatable" 
                                    data-en="This poster shows how teasing and discrimination can hurt a person who is different. On the left side, the character is judged and bullied, while on the right side, people accept and support each other. The bright colors and happy expressions represent equality, respect, and kindness. The poster promotes gender equality and reminds everyone that everyone deserves to be accepted and treated fairly."
-                                   data-tl="Ipinapakita ng poster na ito kung paano nakakasakit ang panunukso at diskriminasyon sa isang taong iba sa paningin ng marami. Sa kaliwang bahagi, hinuhusgahan at binu-bully ang karakter, samantalang sa kanang bahagi naman, tinatanggap at sinusuportahan ng mga tao ang isa’t isa.
+                                   data-tl="Ipinapakita ng poster na ito kung paano nakakasakit ang panunukso at diskriminasyon sa isang taong iba sa paningin ng marami. Sa kaliwang bahagi, hinuhusgahan at binu-bully ang karakter, samantalang sa kanang bahagi naman, tinatanggap at sinusuportahan ng mga tao ang isa't isa.
 Ang mga maliliwanag na kulay at masasayang ekspresyon ay sumasagisag sa pagkakapantay-pantay, paggalang, at kabutihan. Isinusulong ng poster na ito ang gender equality at ipinapaalala sa lahat na ang bawat isa ay karapat-dapat na tanggapin at tratuhin nang may katarungan.">
                                   This poster shows how teasing and discrimination can hurt a person who is different. On the left side, the character is judged and bullied, while on the right side, people accept and support each other. The bright colors and happy expressions represent equality, respect, and kindness. The poster promotes gender equality and reminds everyone that everyone deserves to be accepted and treated fairly.
                                 </p>
@@ -583,6 +608,18 @@ Ang mga maliliwanag na kulay at masasayang ekspresyon ay sumasagisag sa pagkakap
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Math Integration Section -->
+        <section id="math-integration" class="section">
+            <div class="overlay"></div>
+            <div class="content fade-in">
+                <h1>Math Integration</h1>
+                <h2>Mathematical Analysis</h2>
+                <div class="math-image-container">
+                    <img src="./media/math-integration.jpg" alt="Math Integration">
                 </div>
             </div>
         </section>
